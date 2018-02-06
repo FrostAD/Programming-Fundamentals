@@ -17,6 +17,7 @@ namespace TheatrePromotions
             if (age < 0 || age > 122)
             {
                 Console.WriteLine("Error!");
+                return;
             }
 
             if (typeOfDay == "Weekday")
